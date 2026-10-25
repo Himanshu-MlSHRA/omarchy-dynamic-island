@@ -1,13 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "io.github.himanshu-mlshra.dynamic-island",
-  "name": "Dynamic Island",
+  "name": "Island Flight",
   "version": "1.0.0",
   "author": "Himanshu Mishra",
   "license": "MIT",
   "homepage": "https://github.com/Himanshu-MlSHRA/omarchy-dynamic-island",
   "description": "Replaces the top bar with a phone-style Dynamic Island: a small pill with the time that opens into pages for media, Wi-Fi, Bluetooth, sound, battery, Claude usage, system stats and quick toggles. Notifications, volume and brightness show inside it, and windows fly out of it when they open.",
-  "kinds": ["bar"],
+  "kinds": [
+    "bar"
+  ],
   "entryPoints": {
     "bar": "Bar.qml"
   }

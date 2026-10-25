@@ -1,10 +1,12 @@
-# Dynamic Island for Omarchy
+# Island Flight
+
+A Dynamic Island for [Omarchy](https://omarchy.org), where windows fly out of the island.
 
 Turns Omarchy's top bar into a phone-style **Dynamic Island**: a small pill with the time that opens into pages
 for music, Wi-Fi, Bluetooth, sound, battery, Claude Code usage, system stats and quick toggles. Notifications,
 volume and brightness appear inside it, and apps fly out of it when they open.
 
-![Dynamic Island](preview.png)
+![Island Flight](preview.png)
 
 Walkthrough video and the full setup: [omarchy-dotfiles](https://github.com/Himanshu-MlSHRA/omarchy-dotfiles)
 
