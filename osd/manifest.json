@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.himanshu-mlshra.dynamic-island-osd",
+  "name": "Island Flight OSD",
+  "version": "1.0.0",
+  "author": "Himanshu Mishra",
+  "license": "MIT",
+  "homepage": "https://github.com/Himanshu-MlSHRA/omarchy-dynamic-island",
+  "description": "Shows volume, brightness and status overlays inside the Island Flight bar",
+  "kinds": [
+    "panel"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "panel": "Osd.qml"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.osd"
+  }
+}

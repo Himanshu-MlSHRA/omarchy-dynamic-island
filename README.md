@@ -35,7 +35,11 @@ hl.define_submap("island", function()
 end)
 ```
 
-**Volume and brightness inside the island:** `omarchy plugin disable omarchy.osd`
+**Volume and brightness inside the island** (this also replaces the stock OSD, and restarts the shell once):
+
+```sh
+bash ~/.config/omarchy/plugins/io.github.himanshu-mlshra.dynamic-island/osd/enable.sh
+```
 
 **Notifications only in the island** (not also in the corner) and menus that grow out of it: use the one-line
 installer from [omarchy-dotfiles](https://github.com/Himanshu-MlSHRA/omarchy-dotfiles#install), which adds the companion plugins.
@@ -46,11 +50,11 @@ installer from [omarchy-dotfiles](https://github.com/Himanshu-MlSHRA/omarchy-dot
 
 ```sh
 omarchy bar reset
+omarchy plugin remove io.github.himanshu-mlshra.dynamic-island-osd   # only if you enabled it above
 omarchy plugin remove io.github.himanshu-mlshra.dynamic-island
 ```
 
-If you added the shortcut block, delete it from `~/.config/hypr/bindings.lua`. If you disabled the OSD,
-run `omarchy plugin enable omarchy.osd`.
+If you added the shortcut block, delete it from `~/.config/hypr/bindings.lua`.
 
 ## Requirements
 
